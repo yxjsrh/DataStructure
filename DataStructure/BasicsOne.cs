@@ -33,7 +33,7 @@ namespace DataStructure
                 h.AddAfter(cur, 9);                //21去他后面站着！
             }
 
-            foreach (int a in h)                    //列队！！
+            foreach (int a in h)                    //列队！
             {
                 Console.WriteLine(a+ " ");                     //报数：53 62 21 7 25 8
             }
