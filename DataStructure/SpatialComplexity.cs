@@ -6,10 +6,10 @@ namespace DataStructure
 {
     public class SpatialComplexity
     {
-
+        //空间复杂度
         //查找数组中出现最多的元素  
         //暴力解法 需要两个for  这里转换成词典的方式  降低时间复杂度
-        private void test1()
+        public void test1()
         {
             int[] a = { 1, 2, 3, 4, 5, 5, 6, 6, 6 };
             Dictionary<int, int> temp = new Dictionary<int, int>();

@@ -6,6 +6,7 @@ namespace DataStructure
 {
     public class TimeComplexity
     {
+        //时间复杂度
         //通常情况下 一个顺序执行的过程  时间复杂度为  O(1)
         //          for循换                     O(n)
         //      双层for嵌套为                    O(n²)
