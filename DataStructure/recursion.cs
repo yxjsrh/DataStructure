@@ -14,6 +14,10 @@ namespace DataStructure
             String z = "z";
             hanio(3, x, y, z);
         }
+        //可以拆分为3部  
+        //1.将n-1个盘子移动到y 
+        //2.将最大的盘子移动到z
+        //3.将n-1个盘子移动到z
         public void hanio(int n, String x, String y, String z)
         {
             if (n < 1)
